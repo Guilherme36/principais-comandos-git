@@ -1,1 +1,7 @@
-HAHA 
+git status
+
+git add NomeDoArquivo.txt
+
+git commit -m "meu commit aqui"
+
+git push origin master
