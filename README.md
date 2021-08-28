@@ -38,6 +38,10 @@ git remote –v
 ```bash
 git push origin master
 ```
+### Baixar a alteração feita no repositório remoto:
+```bash
+git pull
+```
 ###  Cria uma tag 
 ```bash
 git tag -a <nome da tag> -m <comentário>
