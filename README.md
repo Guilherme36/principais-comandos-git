@@ -26,7 +26,11 @@ git add NomeDoArquivo.txt
 ```bash
 git commit -m "meu commit aqui" 
 ```
-### Informar a pasta remota:
+### Informar a pasta remota (Via HTTPS):
+```bash
+git remote add origin https://github.com/hstrada/senai-versoes-colaboracoes.git   (lembre-se de trocar o usuário no comando)
+```
+### Informar a pasta remota (Via SSH):
 ```bash
 git remote add origin git@github.com:hstrada/senai-versoes-colaboracoes.git   (lembre-se de trocar o usuário no comando)
 ```
