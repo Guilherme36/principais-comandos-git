@@ -40,6 +40,10 @@ git remote add origin git@github.com:hstrada/senai-versoes-colaboracoes.git
 ```bash
 git remote –v
 ```
+### Alterar o nome da branch principal de Master para Main (isso é uma boa prática atualmente recomendada)
+```bash
+git branch -M "main"
+```
 ###  Realiza o envio dos commits para o branch master
 ```bash
 git push origin master
